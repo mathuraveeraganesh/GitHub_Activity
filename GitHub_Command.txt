@@ -4,6 +4,15 @@ git commit -m "first commit"
 git remote add origin https://github.com/mathuraveeraganesh/GitHub_Activity.git
 git push -u origin master
 
+git branch "development1"
+git checkout "development1"
+git init
+git add .
+git commit -m "first commit"
+git remote add origin1 https://github.com/mathuraveeraganesh/GitHub_Activity.git
+git push -u origin1 development1
+
+
 git config --global user.email "mathuraganesh.ums@gmail.com"
 git config --global user.name "mathuraveeraganesh"
 git clone https://github.com/mathuraveeraganesh/GitHub_Activity.git
